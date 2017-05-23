@@ -186,7 +186,6 @@ local refillmissions = {
 
 function startRefill(ingr, am1, am2, am3)
 	local returnmission = false
-	blipmissionreturn
 	local loc = refillmissions[ingr]
 	Citizen.CreateThread(function()
 		Citizen.Wait(0)
